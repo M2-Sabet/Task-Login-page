@@ -1,0 +1,153 @@
+.center_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.center_div_color{
+    background-color: rgba(0, 139, 139, 0.544);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+.img_size{
+    height: 170px;
+    width: 170px;
+}
+.three_main_div{
+    display: flex;
+    flex-direction: column;
+}
+.two_center_divs{
+    display: flex;
+}
+.inputs_div{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.inputs_size1{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    border: 0;
+}
+.inputs_size2{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    border: 0;
+}
+.inputs_size3{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    border: 0;
+}
+.inputs_size4{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+.button_size{
+    height:50px ;
+    width: 120px; 
+    border-radius: 10px;
+}
+.div_button{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+.padding_left_inp{
+    padding-left: 100px;
+}
+.padding_right{
+    padding-right: 100px;
+    padding-left: 70px;
+    padding-top: 50px;
+
+
+}
+.margin_right_img{
+    margin-right: 23px;
+}
+.text_edit{
+    font-size: 160%;
+    color: white;
+}
+.text_color{
+    color: white;
+}
+.plus_class{
+    width:0px;
+}
+
+@media(max-width:614px)
+{
+    .two_center_divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs_div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: flex-end;
+        padding-top: 20px;
+    }
+    .text_color{
+        color: white;
+        margin-right: 15px;
+    }
+    .inputs_div{
+        display: flex;
+        gap: 40px;
+        justify-content: flex-end;
+        padding-top: 20px;
+        margin-right: 20px;
+    }
+    .text_edit{
+        font-size: 160%;
+        color: white;
+        padding-top: 400px;
+    }
+    
+}
+@media(max-width:380px)
+{
+    .two_center_divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs_div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: flex-end;
+        padding-top: 20px;
+    }
+    .text_color{
+        color: white;
+        margin-right: 15px;
+    }
+    .inputs_div{
+        display: flex;
+        gap: 40px;
+        justify-content: flex-end;
+        padding-top: 20px;
+        margin-right: 20px;
+    }
+    .text_edit{
+        font-size: 160%;
+        color: white;
+        padding-top: 400px;
+    }
+    
+}
